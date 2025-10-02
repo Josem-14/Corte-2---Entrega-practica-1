@@ -1,5 +1,5 @@
 //Jose Miguel Sedano 
-//Angie Valentina Garcia 
+//Angye Valentina Garcia
 
 
 #include <iostream>
