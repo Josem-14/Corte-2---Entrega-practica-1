@@ -1,46 +1,47 @@
 //Jose Miguel Sedano 
-//Angie Valentina Garcia 
+//Angye Valentina Garcia
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-// Callback functions for different operations
-int add(int a, int b)
+// Callback funct   ions for different operations
+float add(float a, float b)
 {
     
     return a + b;
 }
 
-int multiply(int a, int b)
+float multiply(float a, float b)
 {
     return a * b;
 }
 
-int subtract(int a, int b)
+float subtract(float a, float b)
 {
     return a - b;
 }
-int divide(int a, int b)
+float divide(float a, float b)
 {
     if (b != 0)
         return a / b;
     else
     {
         cout << "SINTAX ERROR" << endl;
+        return 0;
     }
 }
 
 // Function that performs an operation using a callback
-void performOperation(int (*callback)(int, int), int j, int m)
+void performOperation(float (*callback)(float, float), float j, float m)
 {
     cout << "El resultado de la operacion es: " << callback(j,m) << endl;
 }
 
 int main()
 {
-    int j= 0;
-    int m=0;
+    float j= 0;
+    float m=0;
     string operacion;
     cout<<"Ingrese que tipo de operacion desea realizar (Suma(+), Resta(-), Multplicacion(x,*), Division(/) : ";
     cin>>operacion;
