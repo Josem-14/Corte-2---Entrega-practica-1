@@ -1,3 +1,7 @@
+//Jose Miguel Sedano 
+//Angie Valentina Garcia 
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
