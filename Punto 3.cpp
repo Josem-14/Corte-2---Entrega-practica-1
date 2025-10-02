@@ -1,3 +1,6 @@
+//Jose Miguel Sedano 
+//Angie Valentina Garcia 
+
 #include <iostream>
 #include <string>
 using namespace std;
